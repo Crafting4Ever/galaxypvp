@@ -1,0 +1,98 @@
+body {
+	background-color: #b6b8ba;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b6b8ba;
+	font-family: 'Advent Pro';font-size: 22px;
+}
+
+li {
+    float: left;
+	font-family: 'Advent Pro';font-size: 22px;
+}
+
+li a {
+    display: block;
+	font-family: 'Advent Pro';font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+	font-family: 'Advent Pro';font-size: 22px;
+	color: #b6b8ba;
+}
+h1 {
+	color: white;
+    font-family: 'Advent Pro';font-size: 65px;
+}
+div.section1 {
+	background: white;
+	width: 400px;
+	height: 450px;
+	border-radius: 8px;
+	float: left;
+	margin-left: 29px;
+}
+div.store {
+	background: white;
+	width: 400px;
+	height: 320px;
+	border-radius: 8px;
+	float: left;
+	margin-left: 29px;
+}
+div.footer {
+	background: white;
+	width: 1260px;
+	height: 100px;
+	border-radius: 8px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 29px;
+}
+h2 {
+	color: #b6b8ba;
+}
+hr {
+	color: #b6b8ba;
+	background-color: #b6b8ba;
+	height: 5px;
+}
+hr.nav {
+	color: white;
+	background-color: white;
+	height: 5px;
+}
+a.button {
+background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+a.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+a.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
